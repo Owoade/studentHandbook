@@ -1,10 +1,7 @@
 const CACHE_NAME = 'HandBook';
 const CACHE_FILES = ['index.html', '']
-
 const self = this;
-
 // Install service worker
-
 self.addEventListener('install', (e) => {
     // install steps
     e.waitUntil(
@@ -26,7 +23,6 @@ self.addEventListener('fetch', (e) => {
 
     )
 })
-
 // update service worker 
 self.addEventListener('activate', (e) => {
     const cacheWhiteList = [];
