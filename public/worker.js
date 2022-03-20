@@ -1,5 +1,5 @@
 const CACHE_NAME = 'HandBook';
-const CACHE_FILES = ['index.html', '']
+const CACHE_FILES = ['index.html', 'staff.html', 'course.html', 'synopsis-Nd.html', 'synopsis-Hnd.html', 'course-details.html'];
 const self = this;
 // Install service worker
 self.addEventListener('install', (e) => {
@@ -7,7 +7,7 @@ self.addEventListener('install', (e) => {
     e.waitUntil(
         caches.open(CACHE_NAME)
             .then(cache => {
-                return cache.addAll(['index.html'])
+                return cache.addAll(CACHE_FILES)
             })
     )
 })
