@@ -307,7 +307,7 @@ export const CourseDetailsData=[
                     {text:"The full name and address of the institution or scholarship board should be stated so that the College can send the transcript directly to the Institution/Scholarship board."},
                 ]
             },{
-                subHeading:"Procedure for Obtaining Academic Transcripts",
+                subHeading:"Withdrawal",
                 paragraph:true,
                 data:"A student who fails to reach a cumulative grade point average of 2.00 at the end of one semester shall be placed on Probation during the second semester. If he fails to achieve a cumulative grade point average of at least 2.00 at the end of the second semester, he/she shall be required to WITHDRAW from the College."
             },{
