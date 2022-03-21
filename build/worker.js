@@ -1,5 +1,5 @@
 const CACHE_NAME = 'HandBook';
-const CACHE_FILES = ['index.html', 'staff.html', 'course.html', 'synopsis-Nd.html', 'synopsis-Hnd.html', 'course-details.html'];
+const CACHE_FILES = ['index.html', 'staff.html', 'course.html', 'synopsis-Nd.html', 'synopsis-Hnd.html', 'course-details.html',"anthem.html","about-us.html","mission.html","vision.html","principal-officers.html","preface.html"];
 const self = this;
 // Install service worker
 self.addEventListener('install', (e) => {

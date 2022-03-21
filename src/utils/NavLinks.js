@@ -10,10 +10,35 @@ export const UrlLinks = [
     icon: <FaHome />,
   },
   {
-    name: 'Teaching Staff',
-    url: '/staff',
+    name: 'Foreword',
+    url: '/foreword'
+  },
+  {
+    name: 'Preface',
+    url: '/preface'
+  },
+  {
+    name: 'School Anthem',
+    url: '/anthem',
     icon: <FaChalkboardTeacher />,
   },
+  {
+    name: 'Vision',
+    url: '/vission'
+  },
+  {
+    name: 'Mission',
+    url: '/mission'
+  },
+  {
+    name: 'Principal Officers',
+    url: '/principal-officers'
+  },
+  {
+    name: 'About us',
+    url: '/about-us'
+  },
+ 
   {
     name: 'Courses',
     url: '/course',

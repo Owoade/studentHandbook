@@ -20,7 +20,14 @@ import Staff from './pages/Staff';
 import Courses from './pages/Courses';
 import Synopis from './pages/Synopis';
 import SynopisHnd from './pages/SynopisHnd';
-import CourseDetails from "./pages/CourseDetails"
+import CourseDetails from "./pages/CourseDetails";
+import ForeWordPage from "./pages/Foreword";
+import AnthemPage from "./pages/Anthem";
+import AboutUsPage from "./pages/Aboutus";
+import MissionPage from "./pages/Mission";
+import PrincipalOfficersPage from "./pages/PrincipalOfficers";
+import PrefacePage from "./pages/Preface";
+import VisionPage from "./pages/Vision";
 
 function App() {
   const location = useLocation();
@@ -77,6 +84,13 @@ function App() {
               <Route path="/synopis-Nd" element={<Synopis />} />
               <Route path="/synopis-Hnd" element={<SynopisHnd />} />
               <Route path="/course-details" element={<CourseDetails />} />
+              <Route path="/mission" element={<MissionPage />} />
+              <Route path="/vision" element={<VisionPage />} />
+              <Route path="/principal-officers" element={<PrincipalOfficersPage />} />
+              <Route path="/preface" element={<PrefacePage />} />
+              <Route path="/anthem" element={<AnthemPage />} />
+              <Route path="/about-us" element={<AboutUsPage />} />
+              <Route path="/foreword" element={<ForeWordPage />} />
             </Routes>
           </VStack>
         </AnimatePresence>

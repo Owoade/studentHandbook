@@ -1,6 +1,6 @@
 import PageWrapper from "../components/PageWrapper";
 import Foreword from "../components/Home/Foreword";
-const Foreword = () => {
+const ForewordPage = () => {
     return ( 
         <PageWrapper>
             <Foreword />
@@ -8,4 +8,4 @@ const Foreword = () => {
      );
 }
  
-export default Foreword;
+export default ForewordPage;
