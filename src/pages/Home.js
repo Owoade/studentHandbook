@@ -67,13 +67,6 @@ const Home = () => {
           </HStack>
         </VStack>
       </Flex>
-      <Foreword />
-      <Preface />
-      <Anthem />
-      <PrincipalOfficers />
-      <AboutUs />
-      <Vision />
-      <Mission />
       <BottomNavigation navigation={{next:"/staff"}} />
    </PageWrapper>
   );
