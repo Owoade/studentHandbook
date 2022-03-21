@@ -19,8 +19,7 @@ export const UrlLinks = [
   },
   {
     name: 'School Anthem',
-    url: '/anthem',
-    icon: <FaChalkboardTeacher />,
+    url: '/anthem'
   },
   {
     name: 'Vision',

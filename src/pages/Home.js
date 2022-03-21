@@ -25,8 +25,8 @@ const Home = () => {
       <Flex flexDir="column" justifyContent={'space-between'} w="full" h="70vh">
         <VStack justifyContent={'center'} mt={4} as="section">
           <Flex>
-        <img src="https://fcahptib.edu.ng/collogo.png" width={"50px"} />
-        <img style={{width:"50px"}} src="https://th.bing.com/th/id/OIP.gyELfX6Mr4tD-c0q2HiGhQHaHa?pid=ImgDet&rs=1" />
+        <img src="https://fcahptib.edu.ng/collogo.png" width={"50px"}  />
+        <img style={{width:"50px",marginLeft:"2em"}}  src="https://th.bing.com/th/id/OIP.gyELfX6Mr4tD-c0q2HiGhQHaHa?pid=ImgDet&rs=1" />
           </Flex>
           <Heading textAlign={'center'} size={'lg'} as="h1">
             COMPUTER SCIENCE TECHNOLOGY DEPARTMENT
