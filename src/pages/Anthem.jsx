@@ -1,10 +1,11 @@
 import PageWrapper from "../components/PageWrapper";
 import Anthem from "../components/Home/Anthem";
+import BottomNavigation from "../components/shared/BottomNavigation"
 const AnthemPage = () => {
     return ( 
         <PageWrapper>
             <Anthem />
-        </PageWrapper>
+            <BottomNavigation navigation={{next:"/vision",prev:"/preface"}} />        </PageWrapper>
      );
 }
  
