@@ -23,7 +23,7 @@ export const UrlLinks = [
   },
   {
     name: 'Vision',
-    url: '/vission'
+    url: '/vision'
   },
   {
     name: 'Mission',

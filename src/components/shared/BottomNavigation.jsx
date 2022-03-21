@@ -11,8 +11,8 @@ const BottomNavigation = ({navigation}) => {
     }
     return ( 
        <Flex my={"6"} width={"200px"} mx="auto" justifyContent={"space-between"}>
-           {navigation.prev && <Button colorScheme={"blue"} onClick={()=> navigateToRoute(`${navigation.prev}#top`)}>Previous</Button>}
-           {navigation.next && <Button colorScheme={"blue"} onClick={()=> navigateToRoute(`${navigation.next}#top`)}>Next</Button>}
+          {navigation.prev && <Button colorScheme={"blue"} onClick={()=> navigateToRoute(`${navigation.prev}`)}>Previous</Button>}
+          {navigation.next && <Button colorScheme={"blue"} onClick={()=> navigateToRoute(`${navigation.next}`)}>Next</Button>}
            
        </Flex>
      );

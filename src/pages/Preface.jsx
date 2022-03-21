@@ -1,5 +1,5 @@
 import PageWrapper from "../components/PageWrapper"
-import Preface from "../components/Home/Foreword";
+import Preface from "../components/Home/Preface";
 import BottomNavigation from "../components/shared/BottomNavigation";
 const PrefacePage = () => {
     return ( <PageWrapper>
