@@ -28,13 +28,13 @@ import MissionPage from "./pages/Mission";
 import PrincipalOfficersPage from "./pages/PrincipalOfficers";
 import PrefacePage from "./pages/Preface";
 import VisionPage from "./pages/Vision";
+import { useSearch } from './hooks/search';
 
 function App() {
   const location = useLocation();
-
   const { isOpen, onOpen, onClose } = useDisclosure();
   const { width } = useWindowSize();
-
+  useSearch()
   //close sidebar if screen is more than  a smaller width
   useEffect(() => {
     if (width > 768) {

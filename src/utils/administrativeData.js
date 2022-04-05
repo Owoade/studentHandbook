@@ -54,5 +54,5 @@ export const administrative = [
         Rank: '',
       },
     ],
-  },
+  }
 ];
