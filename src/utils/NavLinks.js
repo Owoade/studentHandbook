@@ -39,6 +39,11 @@ export const UrlLinks = [
   },
  
   {
+    name: 'Staffs',
+    url: '/staff',
+    icon:"",
+  },
+  {
     name: 'Courses',
     url: '/course',
     icon: <SiCoursera />,
@@ -57,5 +62,9 @@ export const UrlLinks = [
     name:"Course Details",
     url:"/course-details",
     icon:<i className="ri-article-line"></i>
+  },{
+    name:"Search",
+    url:"/search",
+    icon:<i className="ri-search-line"></i>
   }
 ];

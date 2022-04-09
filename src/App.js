@@ -29,12 +29,14 @@ import PrincipalOfficersPage from "./pages/PrincipalOfficers";
 import PrefacePage from "./pages/Preface";
 import VisionPage from "./pages/Vision";
 import { useSearch } from './hooks/search';
+import SearchPage from './pages/Search';
+
 
 function App() {
   const location = useLocation();
   const { isOpen, onOpen, onClose } = useDisclosure();
   const { width } = useWindowSize();
-  useSearch()
+  useSearch("COM 124")
   //close sidebar if screen is more than  a smaller width
   useEffect(() => {
     if (width > 768) {
@@ -91,6 +93,7 @@ function App() {
               <Route path="/anthem" element={<AnthemPage />} />
               <Route path="/about-us" element={<AboutUsPage />} />
               <Route path="/foreword" element={<ForeWordPage />} />
+              <Route path="/search" element={<SearchPage />} />
             </Routes>
           </VStack>
         </AnimatePresence>

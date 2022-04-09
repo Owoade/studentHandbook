@@ -1,13 +1,15 @@
 import { OrderedList, ListItem, Text, Box, Heading } from "@chakra-ui/react";
 import RenderSubData from "../shared/RenderSubData";
+import queryString from "query-string"
 // import 
 
 const RenderCourseMarkup = ({ courseData }) => {
+    const url = queryString.parse(window.location.search)
     if (courseData.list) {
         if (courseData.list.type == "alphabet") {
             return (
                 <Box my={"5"}>
-                    <Text fontWeight={"extrabold"}>
+                    <Text fontWeight={"extrabold"} backgroundColor={url.resource == courseData.dataHeading ? "yellow" : "" }>
                         {courseData.dataHeading}
                     </Text>
                     <OrderedList>
